@@ -5,6 +5,10 @@
 	--silver-color: #f1f0eb;
 }
 
+body {
+	font-family: "Source Sans Pro", sans-serif;
+}
+
 .text-secondary {
 	color: var(--secondary-color);
 }
@@ -26,4 +30,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left;
+}
+
+.gradient {
+	background: linear-gradient(90deg, #002e2a 100%, #ebb96f 0%);
 }
