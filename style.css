@@ -1,14 +1,23 @@
 :root {
-	--primary-color: #002e2a;
-	--secondary-color: #d17a22;
+	--primary-color: #012970;
+	--secondary-color: #717ff5;
 	--alabaster-color: #f1f0eb;
 	--silver-color: #f1f0eb;
+}
+
+/* --primary-color: #4154f1;
+  --light-primary-color: #717ff5; 
+  --secondary-color: #D17A22; 
+  --dark-cyan-blue: #012970;
+  --greyish: #444444 */
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 .text-secondary {
 	color: var(--secondary-color);
 }
-
 .text-primary {
 	color: var(--primary-color);
 }
@@ -22,8 +31,12 @@
 }
 
 .hero {
-	background-image: url("./bg.png");
+	background-image: url("./img/bg-hero.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left;
+}
+
+.gradient {
+	background: linear-gradient(90deg, #012970 100%, #717ff5 0%);
 }
